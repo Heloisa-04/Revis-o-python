@@ -4,18 +4,13 @@
 
 
 import os 
+from Func import *
 
 sair = 0 
 
 while sair == 0:
     print("Gerenciador de tarefas - TO DO")
-    print("")
-    print("O que deseja fazer?")
-    print("1- Adicionar uma tarefa")
-    print("2- Editar tarefa")
-    print("3- Excluir tarefa")
-    print("4- sair")
-    escolha = int(input("Insira sua resposta:"))
+    menu()
 
     if escolha == 1:
         pass
