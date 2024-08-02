@@ -10,11 +10,20 @@ sair = 0
 
 while sair == 0:
     print("Gerenciador de tarefas - TO DO")
-    menu()
+    print("     --MENU--    ")
+    print("1 - ADICIONAR TAREFAS")
+    print("2 - EDITAR TAREFAS")
+    print("3 - EXCLUIR TAREFAS")
+    print("4 - SAIR")
+
+    escolha=int(input("Qual opção deseja? \n -->"))
+    limpa_console()
     
 
     if escolha == 1:
-        pass
+        add()
+        limpa_console()
+
 
     elif escolha == 2:
         pass
@@ -24,6 +33,10 @@ while sair == 0:
 
     elif escolha == 4:
         sair = 1
+    
+    else:
+        escolha = 0
+        print("Opção inválida")
         
 
 os.system("pause")

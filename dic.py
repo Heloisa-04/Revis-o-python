@@ -1,5 +1,6 @@
-import os
-dicionario = {
-    "Nome":"",
+from Func import *
+
+Tadd = {
+    "Titulo":"",
     "Descrição":"",
 }

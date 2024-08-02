@@ -1,15 +1,24 @@
 #funções
-import os 
+import os
+from dic import *
 
-def menu():
-    print("--MENU--")
-    print("1 - ADICIONAR TAREFAS")
-    print("2 - EDITAR TAREFAS")
-    print("3 - EXCLUIR TAREFAS")
-    print("4 - SAIR")
+def add():
+    Tadd["Titulo"] = input("Digite o nome da tarefa:")
+    Tadd["Descrição"] = input("Adicione uma descrição para a tarefa:")
+    print("Tarefa adicionada...")
 
-    escolha=int(input("Qual opção deseja? \n -->"))
-    return escolha
+    
+
+    
+    for chave, valor in Tadd.items():
+       print(f"Titulo:{chave}   Descrição: {valor}")
+
+    return Tadd
+
+    
+  
+
+   
 
 
 def limpa_console():
