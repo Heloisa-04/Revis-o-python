@@ -4,16 +4,16 @@ from dic import *
 
 def add():
     Tadd["Titulo"] = input("Digite o nome da tarefa:")
-    Tadd["Descrição"] = input("Adicione uma descrição para a tarefa:")
+    T_add["Descrição"] = input("Adicione uma descrição para a tarefa:")
     print("Tarefa adicionada...")
 
     
 
     
-    for chave, valor in Tadd.items():
-       print(f"Titulo:{chave}   Descrição: {valor}")
+    for valor in Tadd.items():
+       print(f"Titulo:{valor}   Descrição: {valor}")
 
-    return Tadd
+    return Tadd and T_add
 
     
   

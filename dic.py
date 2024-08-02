@@ -1,6 +1,15 @@
 from Func import *
 
-Tadd = {
-    "Titulo":"",
-    "Descrição":"",
+#Tadd ={
+ #   "Tarefa":"",
+  #  "Descrição":""
+#}
+
+
+title = []
+desc = []
+
+Tadd = {"Titulo" : title,
+        "Descrição": desc
 }
+

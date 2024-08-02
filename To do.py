@@ -7,6 +7,7 @@ import os
 from Func import *
 
 sair = 0 
+list_dic = [Tadd]
 
 while sair == 0:
     print("Gerenciador de tarefas - TO DO")
@@ -33,6 +34,7 @@ while sair == 0:
 
     elif escolha == 4:
         sair = 1
+        print("Saindo...")
     
     else:
         escolha = 0
