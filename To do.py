@@ -11,6 +11,7 @@ sair = 0
 while sair == 0:
     print("Gerenciador de tarefas - TO DO")
     menu()
+    
 
     if escolha == 1:
         pass
