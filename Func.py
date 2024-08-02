@@ -4,7 +4,7 @@ from dic import *
 
 def add():
     Tadd["Titulo"] = input("Digite o nome da tarefa:")
-    T_add["Descrição"] = input("Adicione uma descrição para a tarefa:")
+    Tadd["Descrição"] = input("Adicione uma descrição para a tarefa:")
     print("Tarefa adicionada...")
 
     
@@ -13,7 +13,7 @@ def add():
     for valor in Tadd.items():
        print(f"Titulo:{valor}   Descrição: {valor}")
 
-    return Tadd and T_add
+    return Tadd 
 
     
   
